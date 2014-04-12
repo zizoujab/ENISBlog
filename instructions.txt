@@ -1,6 +1,6 @@
-1. place yourself on ENISBlog directory
-2. extract the content of vendor.zip
-3. run php app/console generate:bundle ( chose annotation for config and leave the default for the rest)
-4.run php app/console doctrine:generate:entity ( to gnerate post entity )
-5. update your php code in the controller and the view ( twig and route )
-6. now try to add another action ( showAction ) that will take the id of the post and display it's content 
+ we want to add crud functionnalities to our blog app
+in ENISBlog Directory run 
+php app/console doctrine:generate:crud 
+then git the name of the entity ENISBlogBundle:Post
+generate write actions too 
+and go to http://localhost/ENISBlog/web/app_dev.php/post/
