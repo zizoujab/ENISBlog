@@ -1,0 +1,1 @@
+1. extract the content of vendor.zip
