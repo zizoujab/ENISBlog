@@ -1,0 +1,5 @@
+enis_blog:
+    resource: "@ENISBlogBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

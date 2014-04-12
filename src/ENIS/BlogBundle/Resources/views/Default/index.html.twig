@@ -1,0 +1,10 @@
+<html>
+	<body>
+		<h1> hello from symfony2  this is the list of post title </h1>
+		<h3> they are {{posts | length }}</h3>
+		<ul>
+		{% for post in posts %}
+			<li> <a href="{{path('show_post', {'id': post.id})}}" > {{post.title}} </a> </li>
+		{% endfor %}
+	</body>
+<html>
